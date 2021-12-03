@@ -13,7 +13,7 @@ function helloContestant(name) {
     console.log("Hello " + name + ", what would you like to accomplish today?");
 }
 
-helloContestant("Billy");
+helloContestant("Big Willy T");
 
 
 document.getElementById("btn").addEventListener("click", displayDate);

@@ -25,5 +25,28 @@ function displayDate() {
 
 
 
+function caseInSwitch(val) {
+    let answer = "";
 
+    switch (val) {
+        case 1:
+            return "Alright thats a start!"
+            break;
+        case 2:
+            return "Now your getting the hang of it!"
+            break;
+        case 3:
+            return "Looking like a pro!"
+            break;
+        case 4: 
+            return "Magni-fucking-ificint!"
+            break;
+        default:
+            return "Whoa lets keep it in the ballpark buddy"
+            break;
+    }
+    return answer;
+}
+
+console.log(caseInSwitch(40));
 

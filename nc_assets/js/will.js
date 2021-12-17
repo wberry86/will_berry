@@ -26,6 +26,13 @@ const myCar = {
   year: 1998,
 };
 
+const myPhone = {
+  make: "Samsung",
+  model: "Galaxy Z Fold 3",
+  color: "Red and Black",
+  weight: "heavy"
+};
+
 const myPets = {
   Lyla: {
     age: "senior",
@@ -72,6 +79,30 @@ function sum(arr, n) {
 }
 
 console.log(sum([2, 3, 4], 2));
+
+// recursive countdown
+function countdown(n) {
+    if (n < 1) {
+        return [];
+    } else {
+        const arr = countdown(n - 1);
+        arr.unshift(n);
+        return arr;
+    }
+}
+console.log(countdown(9));
+
+// recursive range of numbers
+function rangeOfNumbers(startNum, endNum) {
+    if (endNum - startNum === 0) {
+        return [startNum];
+    } else {
+        var numbers = rangeOfNumbers(startNum, endNum - 1);
+        numbers.push(endNum);
+        return numbers;
+    }
+}
+console.log(rangeOfNumbers(8, 23));
 
 
 
@@ -151,7 +182,7 @@ console.log(convertToInteger("888.9"));
 
 
 // ternary operators
-var age = 32;
+// var age = 32;
 
 if (age >= 18) {
     console.log("Congrats! You are officially an adult.");
@@ -168,3 +199,19 @@ function checkSign(num) {
 }
 
 console.log(checkSign(0));
+
+
+// e6 javascript
+// arrow functions
+const hello = (name) => "Hey " + name + " how are you doing today?";
+console.log(hello("Will"));
+
+const quadrupler = num => num * 4;
+console.log(quadrupler(100));
+
+const multiplyer = (num, mult) => num * mult;
+console.log(multiplyer(6, 50));
+
+const greeting = (name = contestant) => "Hello " + name;
+console.log(greeting("Bobby Buche"));
+

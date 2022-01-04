@@ -16,7 +16,7 @@ button {
   display: inline-block;
   background-color: yellow;
   border-radius: 10px;
-  border: 4px double black;
+  border: 4px double rgb(215, 247, 38);
   color: #eeeeee;
   text-align: center;
   font-size: 28px;
@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(121, 245, 20);
+  background-color: rgb(241, 245, 20);
 }
 
 

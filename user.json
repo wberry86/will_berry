@@ -1,0 +1,13 @@
+[
+  {
+    "name": "William",
+    "favoriteNumber": 9,
+    "hobbies": ["painting", "writing"]
+  },
+
+  {
+    "name": "Torie",
+    "favoriteNumber": 5,
+    "hobbies": ["painting", "gardening"]
+  }
+]

@@ -1,12 +1,12 @@
 // display date when button is pushed
-document.getElementById("btn").addEventListener("click", displayDate);
+document.getElementById("btn2").addEventListener("click", displayDate);
 
 function displayDate() {
   document.getElementById("demo").innerHTML = Date();
 }
 
 // count clicks on page
-document.addEventListener("click", () => alert("why are you poking me!"));
+document.getElementById("welcome").addEventListener("click", () => alert("stop poking me!"));
 
 // for fun practice
 

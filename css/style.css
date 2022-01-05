@@ -12,11 +12,12 @@ body {
   background-color: yellow;
 }
 
-button {
+#btn2 {
   display: inline-block;
-  background-color: yellow;
-  border-radius: 10px;
-  border: 4px double rgb(215, 247, 38);
+  background-color: #8208e6;
+  border-radius: 20px;
+  /* border: 4px double rgb(215, 247, 38); */
+  border: none;
   color: #eeeeee;
   text-align: center;
   font-size: 28px;
@@ -30,9 +31,9 @@ button {
   margin: 5px;
 }
 
-button:hover {
+/* #btn2:hover {
   background-color: rgb(241, 245, 20);
-}
+} */
 
 
 #demo {

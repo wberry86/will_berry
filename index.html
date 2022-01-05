@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Will Berry's Website 🚧</title>
-    <link rel="stylesheet" href="./nc_assets/css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/will.js" defer></script>
+  <script src="./js/main.js" type="module" defer></script>
+  </head>
+  <body>
     <main>
-        <div>
-            <h1>
-                Hello! Welcome to my domain. This is Will Berry's Website
-                <br>
-                (͠≖ ͜ʖ͠≖)👌
-            </h1>
-        </div>
-        <div>
-            <h1>Currently Under Construction...</h1>
-        </div>
-        <div class="construction-image">
-            <img src="https://vanschneider.com/blog/content/images/2021/02/under_construction_cover.png" style="width: 100%;" />
-        </div>
-        <br>
-        <div>
-            <button type="button" id="btn">Push ME</button>
-        </div>
-        <br>
-        <p id="demo"></p>
-        
-        <!-- <div class="cool-image2">
+      <div>
+        <h1 id="welcome">
+          Hello! Welcome to my domain. This is Will Berry's Website
+          <br />
+          (͠≖ ͜ʖ͠≖)👌
+        </h1>
+      </div>
+      <div>
+        <h1>Currently Under Construction...</h1>
+      </div>
+      <div class="timer">
+        <span class="timer__part timer__part--minutes">00</span>
+        <span class="timer__part">:</span>
+        <span class="timer__part timer__part--seconds">00</span>
+        <button type="button" class="timer__btn timer__btn--control timer__btn--start">
+            <span class="material-icons">play_arrow</span>
+        </button>
+        <button type="button" class="timer__btn timer__btn--reset">
+            <span class="material-icons">timer</span>
+        </button>
+      </div>
+      <div class="construction-image">
+        <img
+          src="https://vanschneider.com/blog/content/images/2021/02/under_construction_cover.png"
+          style="width: 100%"
+        />
+      </div>
+      <br />
+      <div>
+        <button type="button" id="btn2">Push ME</button>
+      </div>
+      <br />
+      <p id="demo"></p>
+
+      <!-- <div class="cool-image2">
             <img src="./nc_assets/img/20200413_152706.jpg" style="width: 100%;">
         </div>
         <br>
@@ -52,8 +73,7 @@
         <div class="cool-image1">
             <img src="./nc_assets/img/20201128_230738.jpg" style="width: 100%;">
         </div> -->
-       
     </main>
-    <script src="./nc_assets/js/will.js"></script>
-</body>
+  </body>
+  
 </html>

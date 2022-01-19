@@ -1,3 +1,5 @@
+import Tshirt from Tshirt.js;
+
 // display date when button is pushed
 document.getElementById("btn2").addEventListener("click", displayDate);
 
@@ -78,3 +80,5 @@ let people = `[
 ]`;
 
 console.log(JSON.parse(people));
+
+

@@ -1,4 +1,3 @@
-import Tshirt from Tshirt.js;
 
 // display date when button is pushed
 document.getElementById("btn2").addEventListener("click", displayDate);
@@ -80,5 +79,27 @@ let people = `[
 ]`;
 
 console.log(JSON.parse(people));
+
+const navContent = `
+<li><a href="#">Home</a><li>
+<li><a href="#">About</a><li>
+<li><a href="#">Pics</a><li>
+<li><a href="#">Other</a><li>
+<li><a href="#">Contact</a><li>
+`;
+
+
+
+
+
+const newNav = document.createElement("nav");
+newNav.classList.add("navBar");
+
+const navList = document.createElement("ul");
+navList.innerHTML = navContent;
+newNav.append(navList);
+
+document.querySelector("header").prepend(newNav);
+
 
 

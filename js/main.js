@@ -1,4 +1,4 @@
-import Timer from "./Timer";
+import Timer from "./Timer.js";
 
 new Timer(
     document.querySelector(".timer")

@@ -1,4 +1,3 @@
-
 // display date when button is pushed
 document.getElementById("btn2").addEventListener("click", displayDate);
 
@@ -7,10 +6,11 @@ function displayDate() {
 }
 
 // count clicks on page
-document.getElementById("welcome").addEventListener("click", () => alert("stop poking me!"));
+document
+  .getElementById("welcome")
+  .addEventListener("click", () => alert("stop poking me!"));
 
 // for fun practice
-
 const myCar = {
   make: "BMW",
   model: "328i",
@@ -40,29 +40,6 @@ const myPets = {
   },
 };
 
-// e6 javascript
-// arrow functions
-const hello = (name) => "Hey " + name + " what are you doing today?";
-console.log(hello("Will"));
-
-const quadrupler = (num) => num * 4;
-console.log(quadrupler(100));
-
-const multiplyer = (num, mult) => num * mult;
-console.log(multiplyer(6, 50));
-
-const greeting = (name = "contestant") => "Hello " + name;
-console.log(greeting("Willy"));
-
-// destructuring practice
-
-function sumAndMultiply(a, b) {
-  return [a + b, a * b];
-}
-
-const [add, multiply, divide = "not an option"] = sumAndMultiply(333, 3);
-
-console.log(add);
 
 let people = `[
   {
@@ -80,17 +57,14 @@ let people = `[
 
 console.log(JSON.parse(people));
 
+// nav bar components
 const navContent = `
 <li><a href="#">Home</a><li>
 <li><a href="#">About</a><li>
-<li><a href="#">Pics</a><li>
+<li><a href="#pictures">Pics</a><li>
 <li><a href="#">Other</a><li>
 <li><a href="#">Contact</a><li>
 `;
-
-
-
-
 
 const newNav = document.createElement("nav");
 newNav.classList.add("navBar");
@@ -101,5 +75,16 @@ newNav.append(navList);
 
 document.querySelector("header").prepend(newNav);
 
+// footer components
+const footerContent = `
+Hey whats up. If you have found yourself here for some reason and would like to contact Will Berry please send a message to his email address at wberry86@gmail.com. Thank you for visiting.
+`;
 
+const newFooter = document.createElement("footer");
+newFooter.classList.add("footer");
 
+const footerContents = document.createElement("div");
+footerContents.innerHTML = footerContent;
+newFooter.append(footerContent);
+
+document.querySelector("footer").append(newFooter);

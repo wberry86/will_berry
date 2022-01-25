@@ -53,5 +53,9 @@ body {
 .navBar ul a {
   display: block;
   padding: .5rem 1rem;
-  color: inherit;
+  color: #8208e6;
+}
+
+.footer {
+  font-size: 30px;
 }

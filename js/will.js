@@ -2,7 +2,8 @@
 document.getElementById("btn2").addEventListener("click", displayDate);
 
 function displayDate() {
-  document.getElementById("demo").innerHTML = Date();
+  let currentDate = new Date();
+  document.getElementById("demo").innerHTML = currentDate.getUTCFullYear();
 }
 
 // count clicks on page
@@ -74,6 +75,13 @@ navList.innerHTML = navContent;
 newNav.append(navList);
 
 document.querySelector("header").prepend(newNav);
+
+
+
+
+
+
+
 
 // footer components
 const footerContent = `

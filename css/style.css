@@ -52,10 +52,32 @@ body {
 
 .navBar ul a {
   display: block;
-  padding: .5rem 1rem;
+  /* padding: .5rem 1rem; */
   color: #8208e6;
 }
 
 .footer {
   font-size: 30px;
+}
+
+.container {
+  height: 300px;
+  width: 100%;
+}
+
+#display {
+  width:100%;
+  font-size: 72px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#demo {
+  font-size: 44px;
+  color: rgb(47, 177, 35);
+  text-align: center;
 }

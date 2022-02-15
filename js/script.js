@@ -1,3 +1,5 @@
+"use strict";
+
 // display date when button is pushed
 document.getElementById("btn2").addEventListener("click", displayDate);
 
@@ -78,11 +80,6 @@ document.querySelector("header").prepend(newNav);
 
 
 
-
-
-
-
-
 // footer components
 const footerContent = `
 Hey whats up. If you have found yourself here for some reason and would like to contact Will Berry please send a message to his email address at wberry86@gmail.com. Thank you for visiting.
@@ -96,3 +93,28 @@ footerContents.innerHTML = footerContent;
 newFooter.append(footerContent);
 
 document.querySelector("footer").append(newFooter);
+
+
+// timer components
+// const timer =  `
+//         <span class="timer__part timer__part--minutes">00</span>
+//         <span class="timer__part">:</span>
+//         <span class="timer__part timer__part--seconds">00</span>
+//         <button
+//           type="button"
+//           class="timer__btn timer__btn--control timer__btn--start">
+//           <span class="material-icons">play_arrow</span>
+//         </button>
+//         <button type="button" class="timer__btn timer__btn--reset">
+//           <span class="material-icons">timer</span>
+//         </button>
+// `;
+
+// const newTimer = document.createElement("div");
+// newTimer.classList.add("timerContainer");
+
+// const timerContents = document.createElement("div");
+// timerContents.innerHTML = timer;
+// newTimer.append(timerContents);
+
+// document.querySelector(".timer").append(newTimer);

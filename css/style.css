@@ -12,6 +12,18 @@ body {
   background-color: yellow;
 }
 
+#image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cool-image1 {
+  border: 5px solid black;
+  margin: 20px;
+}
+
+
 #btn2 {
   display: inline-block;
   background-color: #8208e6;
@@ -35,6 +47,10 @@ body {
   background-color: rgb(241, 245, 20);
 } */
 
+#btn2:active {
+  position: relative;
+  top: 3px;
+}
 
 #demo {
     font-size: x-large;

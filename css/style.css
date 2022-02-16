@@ -23,6 +23,20 @@ body {
   margin: 20px;
 }
 
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
 
 #btn2 {
   display: inline-block;

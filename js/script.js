@@ -61,22 +61,22 @@ let people = `[
 console.log(JSON.parse(people));
 
 // nav bar components
-const navContent = `
-<li><a href="#">Home</a><li>
-<li><a href="#">About</a><li>
-<li><a href="#pictures">Pics</a><li>
-<li><a href="#">Other</a><li>
-<li><a href="#">Contact</a><li>
-`;
+// const navContent = `
+// <li><a href="#">Home</a><li>
+// <li><a href="#">About</a><li>
+// <li><a href="#pictures">Pics</a><li>
+// <li><a href="#">Other</a><li>
+// <li><a href="#">Contact</a><li>
+// `;
 
-const newNav = document.createElement("nav");
-newNav.classList.add("navBar");
+// const newNav = document.createElement("nav");
+// newNav.classList.add("navBar");
 
-const navList = document.createElement("ul");
-navList.innerHTML = navContent;
-newNav.append(navList);
+// const navList = document.createElement("ul");
+// navList.innerHTML = navContent;
+// newNav.append(navList);
 
-document.querySelector("header").prepend(newNav);
+// document.querySelector("header").prepend(newNav);
 
 
 
